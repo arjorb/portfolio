@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+// import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { HiArrowNarrowRight } from "react-icons/hi";
+// import { HiArrowNarrowRight } from "react-icons/hi";
 const Navbar = () => {
   return (
     <>
@@ -8,9 +9,9 @@ const Navbar = () => {
     <div className='logo'>Uwimana</div>
     <div className='links'>
         <ul>
-            <li>skills</li>
-            <li>project</li>
             <li>blog</li>
+            <li>project</li>
+            <li>resume</li>
             <li className='linkCallToAction'>Get in touch </li>
         </ul>
     </div>
