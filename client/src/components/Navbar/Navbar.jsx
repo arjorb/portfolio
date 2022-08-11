@@ -11,7 +11,7 @@ const Navbar = () => {
             <li>skills</li>
             <li>project</li>
             <li>blog</li>
-            <li className='linkCallToAction'> <div>Get in touch </div><HiArrowNarrowRight/></li>
+            <li className='linkCallToAction'>Get in touch </li>
         </ul>
     </div>
     </Container>
@@ -24,10 +24,11 @@ margin: 1rem 0;
 font-size: 1.1rem;
 font-weight: 550;
 color: #F9FAFB;
+/* opacity: 0.7; */
 display: flex;
 justify-content: space-between;
 .logo{
-    color: #3182CE;
+    color: #3B82F6;
     cursor:pointer;
 }
 .links{
@@ -40,7 +41,7 @@ justify-content: space-between;
             gap: 0.3rem;
             align-items: center;
             justify-content: center;
-            color:#3182CE ;
+            color:#3B82F6 ;
             cursor: pointer;
            }
     }
