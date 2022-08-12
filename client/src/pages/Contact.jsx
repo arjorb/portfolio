@@ -96,6 +96,10 @@ const Container = styled.div`
             font-weight: 550;
             border-radius: 5px;
             cursor: pointer;
+            transition: all 300ms ease-in-out;
+            :hover{
+                background-color: rgba(0, 153, 255,0.71);
+            }
         }
         p{
             font-size: 1.2rem;

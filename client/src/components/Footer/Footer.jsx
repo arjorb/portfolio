@@ -14,9 +14,8 @@ const Footer = () => {
 
 const Container = styled.div`
     position: relative;
-    bottom: 0.5rem;
+    bottom: 0rem;
     text-align: center;
-    z-index: 999;
     margin-top: 5rem;
     p{
         text-align: center;

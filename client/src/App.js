@@ -10,8 +10,9 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <>
-      <Navbar/>
+      
         <BrowserRouter>
+        <Navbar/>
           <Routes>
             <Route path='/' element={ <Main/>}/>  
             <Route path='/blog' element={ <Blog />}/> 
