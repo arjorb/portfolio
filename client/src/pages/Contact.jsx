@@ -10,11 +10,11 @@ const Contact = () => {
         <p className='advice'>Want tech industry advice or just want to talk about life? I got you.</p>
     </div>
     <div className='input-group'>
-        <input type="text" placeholder='Full name'/>
-        <input type="text" placeholder='Email'/>
+        <input type="text" placeholder='Full name'required/>
+        <input type="email" placeholder='Email'required/>
     </div>
     <div className='message-input'>
-        <textarea name="" id="" cols="75" rows="10" placeholder='Your message'></textarea>
+        <textarea name="" id="" cols="91" rows="7" placeholder='Your message'></textarea>
     </div>
     <div className='submit-input'>
         <button>Send message</button>
@@ -46,28 +46,40 @@ const Container = styled.div`
         justify-content: space-between;
         input{
             width: 100%;
-            height: 40px;
+            height: 50px;
             font-size: 1rem;
-            font-size: 550;
+            font-weight: 550;
+            font-family: 'Satoshi', sans-serif;
             color: #fff;
             outline: none;
-            border: none;
+            border:solid 2px #001f33;
             padding-left: 5px;
-            background: #09192E;
-            border-radius: 5px;
+            background: #000000;
+            border-radius: 7px;
+            transition: all 250ms ease-in-out;
+            :focus{
+                border: solid 2px #1c4b97;
+            }
         }
     }
     .message-input{
         margin: 1rem 0;
         textarea{
             font-size: 1rem;
+            font-weight: 550;
+            font-family: 'Satoshi', sans-serif;
             color:#fff;
             outline: none;
-            border: none;
+            border:solid 2px #001f33;
             padding-top: 5px;
             padding-left: 5px;
-            background: #09192E;
+            background: #000000;
             border-radius: 5px;
+            resize: none;
+            transition: all 250ms ease-in-out;
+            :focus{
+                border: solid 2px #1c4b97;
+            }
         }
 
     }
