@@ -12,9 +12,9 @@ const Main = () => {
     </div>
 
     <div className='body'>
-        <p>I’m a software Developer with a diverse and promising skill-set 
+        <p>I’m a resourceful software Developer with a diverse and promising skill-set 
             who love to build powerful and elegant products with 4 years of 
-            experience in tech industry.I love making tools that are user-friendly, simple and delightful.And sometimes I work as a product Design</p>
+            experience in tech industry.I love making tools that are user-friendly, simple and delightful.And sometimes I work as a product Designer</p>
     </div>
 
     <div className='footer'>
@@ -52,7 +52,7 @@ const Container = styled.div`
     }
     .body{
         margin-top: 3rem;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 500;
         line-height:28px;
         vertical-align:baseline;
@@ -64,7 +64,7 @@ const Container = styled.div`
     }
     .footer{
         margin-top: 3rem;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 500;
         line-height:28px;
         vertical-align:baseline;
