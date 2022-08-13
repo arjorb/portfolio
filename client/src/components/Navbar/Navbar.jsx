@@ -21,13 +21,19 @@ const Navbar = () => {
 }
 
 const Container = styled.div`
+/* position: sticky;
+top: 0; */
+/* max-width: 120%; */
+/* background-color: rgba(0,0,0,0.5); */
+/* -webkit-backdrop-filter: blur(8px);
+backdrop-filter: blur(8px); */
 margin: 1rem 0;
 font-size: 1.1rem;
 font-weight: 550;
 color: #F9FAFB;
-/* opacity: 0.7; */
 display: flex;
 justify-content: space-between;
+
 
 .logo{
     color: #3B82F6;
@@ -41,7 +47,8 @@ justify-content: space-between;
         gap: 1.5rem;
         .link{
             text-decoration: none;
-            color: white;
+            color: #F9FAFB;
+            opacity: 0.9;
         }
         .linkCallToAction{
             display: flex;

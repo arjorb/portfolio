@@ -1,9 +1,22 @@
 import React from 'react'
+import styled from 'styled-components';
+import Card from '../components/Project/Card';
 
 const Project = () => {
   return (
-    <div>Project</div>
+    <>
+    <Container>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    </Container>
+    </>
   )
 }
+
+const Container = styled.div`
+  margin-top: 3rem;
+`
 
 export default Project
