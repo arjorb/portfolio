@@ -26,7 +26,7 @@ const Card = () => {
 }
 
 const Container = styled.div`
-    margin-top: 3rem;
+    margin: 1.5rem 0;
     max-width: 350px;
     max-height: auto;
     .card-image{

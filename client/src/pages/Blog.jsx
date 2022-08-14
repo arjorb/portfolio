@@ -19,6 +19,7 @@ const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 1.5rem 0;
 `
 
 export default Blog

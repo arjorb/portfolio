@@ -54,7 +54,7 @@ const Container = styled.div`
             outline: none;
             border:solid 2px #001f33;
             padding-left: 5px;
-            background: #000000;
+            background: transparent;
             border-radius: 7px;
             transition: all 250ms ease-in-out;
             :focus{
@@ -73,7 +73,7 @@ const Container = styled.div`
             border:solid 2px #001f33;
             padding-top: 5px;
             padding-left: 5px;
-            background: #000000;
+            background: transparent;
             border-radius: 5px;
             resize: none;
             transition: all 250ms ease-in-out;

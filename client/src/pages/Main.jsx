@@ -6,9 +6,9 @@ const Main = () => {
     <>
     <Container>
     <div className='title'>
-        {/* <p className='subTitle availability'>Not available for work</p> */}
+       
         <p className="mainTitle">I'm John Uwimana 👨🏾‍💻</p>
-        <p className="subTitle">Software Developer & Product Designer</p>
+        {/* <p className="subTitle">Software Developer & Product Designer</p> */}
     </div>
 
     <div className='body'>
@@ -33,46 +33,34 @@ const Container = styled.div`
     margin-top: 20%;
     .title{
         font-size: 1rem;
-        .subTitle{
-            font-size: 1rem;
-            font-weight: 550;
-            color: #F9FAFB;
-            opacity: 0.4;
-        }
-        .availability{
-            margin-bottom: 2rem;
-            font-size: 1.3rem;
-        }
         .mainTitle{
-            color: #F9FAFB;
             font-size: 24px;
             font-weight: 900;
             line-height: 24px;
+            color: #F9FAFB;
         }
     }
     .body{
         margin-top: 3rem;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
         line-height:28px;
+        color: #9CA3AF;
         vertical-align:baseline;
-        /* font-family: poppins; */
         letter-spacing:-0.4px;
-        color: #888888;
         text-align: justify;
         margin: 2rem 0;
     }
     .footer{
         margin-top: 3rem;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
         line-height:28px;
+        color: #9CA3AF;
         vertical-align:baseline;
         letter-spacing:-0.4px;
-        color: #888888;
         text-align: justify;
         margin: 2rem 0;
-        /* opacity: 0.7; */
         p{
             margin: 1rem 0;
         span{

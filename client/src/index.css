@@ -1,8 +1,4 @@
 @import url('http://fonts.cdnfonts.com/css/satoshi');
-:root{
-  --backgroundColor:#000000;
-  --color:#000023;
-}
 *{
   margin: 0;
   padding: 0;
@@ -13,7 +9,7 @@ body {
   font-family: 'Satoshi', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--backgroundColor);
+  background-color: #000000;
   color: #F9FAFB;
   max-width: 60vw;
   margin: 0 auto;
