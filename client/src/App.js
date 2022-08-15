@@ -9,6 +9,7 @@ import Project from './pages/Project';
 import Contact from './pages/Contact';
 import SignUp from './pages/SignUp';
 import Login from './pages/Login';
+import PageFound from './pages/PageFound';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/contact' element={ <Contact />}/> 
             <Route path='/complexsign' element={ <SignUp />}/> 
             <Route path='/complexlogin' element={ <Login />}/>
+            <Route path='*' element={ <PageFound />}/>
           </Routes>
         </BrowserRouter>
       <Footer/>

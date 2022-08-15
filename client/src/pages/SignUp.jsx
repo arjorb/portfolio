@@ -15,7 +15,7 @@ const signUp = () => {
                 Create new account <span>.</span>
               </h1>
               <span>
-                Already have an account? <Link to='/login'>Sign In</Link>
+                Already have an account? <Link to='/complexlogin'>Sign In</Link>
               </span>
             </div>
             <div className='input'>
