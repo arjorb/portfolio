@@ -1,16 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
+import notFound from '../images/errorPage.png'
 const PageFound = () => {
   return (
     <>
     <Container>
         <div className="svg">
-            <img src="https://i.gifer.com/EKkR.gif" alt="" />
+            <img src={notFound} alt=""/>
         </div>
-        <div className="info">
-            <p>Page Not Found 404</p>
-        </div>
-    
     </Container>
     </>
     
@@ -23,9 +20,15 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-    .info{
-        font-size: 2rem;
-        font-weight: 500;
+.svg{
+    width: 500px;
+    height: 500px;
+    opacity: 0.8;
+
+    img{
+        width: 100%;
+        height: 100%;
     }
+}
 `
 export default PageFound
