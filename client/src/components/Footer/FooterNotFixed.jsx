@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
-const Footer = () => {
 
+const FooterNotFixed = () => {
   return (
     <>
     <Container>
@@ -14,13 +14,8 @@ const Footer = () => {
 }
 
 const Container = styled.div`
-    /* min-height: auto; */
-    position: fixed;
-    bottom: 0.5rem;
-    left: 40%;
     text-align: center;
-    margin-top: 1rem;
-    z-index: 0;
+    margin: 0.5rem 0;
     .copyright{
       p{
         text-align: center;
@@ -33,4 +28,4 @@ const Container = styled.div`
    
 `
 
-export default Footer
+export default FooterNotFixed

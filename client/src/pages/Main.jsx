@@ -1,9 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
+import Footer from '../components/Footer/Footer';
+import Navbar from '../components/Navbar/Navbar';
 
 const Main = () => {
   return (
     <>
+    <Navbar/>
     <Container>
     <div className='title'>
        
@@ -23,6 +26,7 @@ const Main = () => {
     </div>
     
     </Container>
+    <Footer/>
     </>
   )
 }

@@ -1,11 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
 
 const signUp = () => {
 
   return (
     <>
+    <Navbar/>
       <Container>
         <div className='container'>
           <form >
@@ -66,6 +69,7 @@ const signUp = () => {
           </form>
         </div>
       </Container>
+      <Footer/>
     </>
   );
 };

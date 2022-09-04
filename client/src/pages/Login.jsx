@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link} from 'react-router-dom';
 import styled from 'styled-components';
+import Footer from '../components/Footer/Footer';
+import Navbar from '../components/Navbar/Navbar';
 
 
 const Login = () => {
   return (
     <>
-
+    <Navbar/>
       <Container>
         <div className='container'>
           <form>
@@ -43,6 +45,7 @@ const Login = () => {
           </form>
         </div>
       </Container>
+      <Footer/>
     </>
   );
 };

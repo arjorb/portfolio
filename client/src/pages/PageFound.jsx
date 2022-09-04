@@ -1,14 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
 import notFound from '../images/errorPage.png'
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
 const PageFound = () => {
   return (
     <>
+    <Navbar/>
     <Container>
         <div className="svg">
             <img src={notFound} alt=""/>
         </div>
     </Container>
+    <Footer/>
     </>
     
   )

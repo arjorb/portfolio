@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import article1 from '../../images/feed-4.jpg';
+import article1 from '../../images/feed-5.jpg';
 const Card = () => {
   return (
     <>

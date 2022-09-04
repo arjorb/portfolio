@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
 import Main from './pages/Main';
-import Footer from './components/Footer/Footer';
 import Blog from './pages/Blog';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
@@ -15,8 +13,7 @@ function App() {
 
   return (
     <>
-        <BrowserRouter>
-        <Navbar/>
+        <BrowserRouter>       
           <Routes>
             <Route path='/' element={ <Main/>}/>  
             <Route path='/blog' element={ <Blog />}/> 
@@ -27,7 +24,6 @@ function App() {
             <Route path='*' element={ <PageFound />}/>
           </Routes>
         </BrowserRouter>
-      <Footer/>
     </>
   );
 }

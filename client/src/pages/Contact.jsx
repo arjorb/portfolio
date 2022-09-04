@@ -1,9 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
+import Footer from '../components/Footer/Footer';
+import Navbar from '../components/Navbar/Navbar';
 
 const Contact = () => {
   return (
     <>
+    <Navbar/>
     <Container>
     <div className='title'>
         <p className='contact-me'>· Contact me</p>
@@ -21,6 +24,7 @@ const Contact = () => {
         <p><span> arjorb@gmail.com</span></p>
     </div>
     </Container>
+    <Footer/>
     </>
   )
 }
